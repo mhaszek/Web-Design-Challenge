@@ -3,14 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude</title>
+  <title>Wind Speed</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../../style.css">
+  <link rel="stylesheet" type="text/css" href="wind_speed.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-    <a class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
+    <a class="navbar-brand" href="../../../index.html"><strong>Latitude</strong></a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,17 +24,17 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="WebVisualizations/visualizations/max_temperature/max_temperature.html">Max Temperature</a>
-            <a class="dropdown-item" href="WebVisualizations/visualizations/humidity/humidity.html">Humidity</a>
-            <a class="dropdown-item" href="WebVisualizations/visualizations/cloudiness/cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="WebVisualizations/visualizations/wind_speed/wind_speed.html">Wind Speed</a>
+            <a class="dropdown-item" href="../max_temperature/max_temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="../humidity/humidity.html">Humidity</a>
+            <a class="dropdown-item" href="../cloudiness/cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="../wind_speed/wind_speed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="WebVisualizations/visualizations/comparisons/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../comparisons/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="WebVisualizations/visualizations/data/data.html">Data</a>
+          <a class="nav-link" href="../data/data.html">Data</a>
         </li>
       </ul>
     </div>
@@ -42,10 +43,10 @@
   <main class="container">
     
     <section class="main-summary">
-      <h2><strong>Summary: Latitude vs. X</strong></h2>
+      <h2><strong>Wind Speed</strong></h2>
       <hr>
       <section class="summary-figure">
-        <img src="WebVisualizations/Resources/assets/images/Fig1.png" alt="latitude vs max temperature">
+        <img src="../../../WebVisualizations/Resources/assets/images/Fig4.png" alt="latitude vs wind speed">
       </section>
       <section class="summary-desc">
         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
@@ -58,28 +59,27 @@
       <h2><strong>Visualisations</strong></h2>
       <hr>
       <section class="vis-figure vis-figure1">
-        <a href="WebVisualizations/visualizations/max_temperature/max_temperature.html">
-          <img src="WebVisualizations/Resources/assets/images/Fig1.png" alt="latitude vs max temperature">
+        <a href="../max_temperature/max_temperature.html">
+          <img src="../../../WebVisualizations/Resources/assets/images/Fig1.png" alt="latitude vs max temperature">
         </a>
       </section>
       <section class="vis-figure vis-figure2">
-        <a href="WebVisualizations/visualizations/humidity/humidity.html">
-          <img src="WebVisualizations/Resources/assets/images/Fig2.png" alt="latitude vs humidity">
+        <a href="../humidity/humidity.html">
+          <img src="../../../WebVisualizations/Resources/assets/images/Fig2.png" alt="latitude vs humidity">
         </a>
       </section>
       <section class="vis-figure vis-figure3">
-        <a href="WebVisualizations/visualizations/cloudiness/cloudiness.html">
-          <img src="WebVisualizations/Resources/assets/images/Fig3.png" alt="latitude vscloudiness">
+        <a href="../cloudiness/cloudiness.html">
+          <img src="../../../WebVisualizations/Resources/assets/images/Fig3.png" alt="latitude vs cloudiness">
         </a> 
       </section>
       <section class="vis-figure vis-figure4">
-        <a href="WebVisualizations/visualizations/wind_speed/wind_speed.html">
-          <img src="WebVisualizations/Resources/assets/images/Fig4.png" alt="latitude vs wind speed">
+        <a href="../wind_speed/wind_speed.html">
+          <img src="../../../WebVisualizations/Resources/assets/images/Fig4.png" alt="latitude vs wind speed">
         </a>
       </section>
     </section>
   </main>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

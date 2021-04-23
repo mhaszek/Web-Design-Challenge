@@ -1,0 +1,84 @@
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333;
+  background: #ededed;
+}
+
+h2 {
+  font-size: 24px;
+  color: #4aaaa5;
+}
+
+/* Selecting elements by class */
+.navbar-brand {
+  background: #4aaaa5;
+  padding: 10px; 
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  margin-left: 10px;  
+}
+
+#navbarSupportedContent {
+  position: absolute;
+  right: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+ }
+
+.navbar-custom {
+  background-color: white;
+  padding: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+.main-summary,
+.main-visualisations {
+  background: white;
+  padding: 35px 25px;
+  overflow: auto;
+}
+
+.summary-figure img,
+.vis-figure img {
+  width: 50%;
+  height: 50%;
+}
+
+.summary-desc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-summary {
+  float: left;
+  width: 65%;  
+}
+
+.main-visualisations {
+  float: right;
+  width: 30%;
+}
+
+.main-visualisations {
+  display: inline-flexbox;
+}
+
+@media (max-width: 992px) {
+
+.navbar-custom {
+  background-color: #4aaaa5;
+}
+
+}

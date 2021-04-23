@@ -1,0 +1,25 @@
+body .container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+body .container .main-summary {
+  position: relative;
+  width: 100%;
+}
+
+body .container .main-summary .row .vis-figure {
+  text-align: center;
+}
+
+body .container .main-summary .row .vis-figure img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  font-size: 14px;
+  color: #4aaaa5;
+}
