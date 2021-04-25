@@ -8,3 +8,10 @@ h3 {
 .row .vis-figure {
   text-align: center;
 }
+
+/* set figure zize for small screen */
+@media (max-width: 767px) {
+.vis-figure img {
+  width: 100%;
+  height: 100%;
+}}
