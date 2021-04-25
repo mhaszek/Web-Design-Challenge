@@ -1,4 +1,4 @@
-/* Styling for HTML elements */
+/* set general style for body */
 body {
   padding: 0;
   margin: 0;
@@ -9,19 +9,19 @@ body {
   background: #ededed;
 }
 
+/* set font style for headings */
 h2 {
   font-size: 24px;
   color: #4aaaa5;
 }
 
-
-
-/* Selecting elements by class */
+/* set color and padding for navigation section */
 .navbar-custom {
   background-color: white;
   padding: 0px;
 }
 
+/* set style for 'Latitude' button */
 .navbar-light .navbar-brand {
   color: white;
   background: #4aaaa5;
@@ -29,84 +29,101 @@ h2 {
   padding: 20px 10px;
 }
 
+/* set style for hamburger menu */
 .navbar-custom .navbar-toggler {
   border-color: #d1d9d8;
   padding: 2px 8px;
   margin-right: 10px;
 }
 
+/* change hamburger menu color */
 .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(136,136,136, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* set style for navigation bar items */
 #navbarSupportedContent {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   background-color: white;
+  padding-top: 10px;
  }
- 
+
+/* set style for dropdown menu */
 .dropdown-menu {
   font-size: 14px;
   box-shadow: 8px 8px 6px #888888;
-}
-
-.dropdown-menu.show {
   padding: 0px;
 }
 
-.navbar-nav .nav-item.active {
-  padding-left: 10px;
-}
-
+/* set padding for dropdown menu items */
+.navbar-nav .nav-item.active,
 #navbarDropdown {
   padding-left: 10px;
 }
 
+/* set color for dropdown menu items when hovered over */
 .navbar-nav li:hover,
 .navbar-nav .nav-item.dropdown.show .dropdown-menu.show a:hover {
   background-color: #e7e7e7;
 }
 
+/* set style for main section */
 .container {
   margin: 0 auto;
   padding-top: 30px;
 }
 
+/* set background and padding for main sections */
 .main-summary,
 .main-visualisations {
   background: white;
   padding: 35px 25px;
 }
 
+/* set summary section figure parameters */
 .main-summary img {
   width: 240px;
   height: 165px;
   float: left;
 }
 
+/* set paragraph style */
 .main-summary p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* set display for visualisations section */
 .main-visualisations {
   overflow: auto;
 }
 
+/* set visualisations section figure parameters */
 .vis-figure img {
   width: 100%;
   height: 100%;
 }
 
+/* set place-holder broder for all figures */
+.vis-figure {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+/* set display for visualisations section */
 .flex {
   float: left;
 }
 
+/* set display for visualisations section */
 .flex section {
-  width: 50%; float: left;
+  width: 50%; 
+  float: left;
 }
 
+/* media queries - mid size */
 @media (max-width: 992px) {
-
 .navbar-custom {
   background-color: #4aaaa5;
 }
@@ -115,43 +132,24 @@ h2 {
   border-style: none;
   box-shadow: none;
   border-radius: 0px;
-}
+}}
 
-}
-
+/* media queries - small size */
 @media (max-width: 767px) {
-
 .flex {
   display: flex;
 }
 
+.flex section {
+  width: auto; 
+}
+
 .main-summary img {
-  width: 100%;
+  width: 50%;
   height: 50%;
   float: left;
 }
 
 .container {
   padding: 0px;
-}
-
-
-}
-
-/*
-.main-summary {
-  float: left;
-  width: 65%;  
-}
-
-.main-visualisations {
-  float: right;
-  width: 30%;
-}
-
-.summary-figure img,
-.vis-figure img {
-  width: 50%;
-  height: 50%;
-}
-*/
+}}

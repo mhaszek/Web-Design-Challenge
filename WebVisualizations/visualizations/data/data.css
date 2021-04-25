@@ -1,16 +1,25 @@
-
+/* change of the table's font type */
 .table-responsive table {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* change of the table row height */
 tr {
   line-height: 12px;
 }
 
+/* remove top border */
 .table-responsive th {
   border-top: none;
 }
 
-.container section{
-  width: max-content;
+/* set max table lenght to enable vertical scrolling */
+.table-responsive {
+  max-height: 700px;
 }
+
+/* media queries */
+@media (max-width: 767px) {
+  .table-responsive th {
+    border-top: 1px solid #dee2e6;;
+  }}
