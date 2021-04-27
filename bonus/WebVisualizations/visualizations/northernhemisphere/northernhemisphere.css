@@ -1,0 +1,22 @@
+/* set font size and color of figure titles */
+h3 {
+  font-size: 14px;
+  color: #888;;
+}
+
+/* align figure titles' in the middle */
+.row .vis-figure {
+  text-align: center;
+}
+
+/* set padding  */
+.col-xs-12.col-sm-12.col-md-6 {
+  padding-top: 15px;
+}
+
+/* set figure zize for small screen */
+@media (max-width: 767px) {
+.vis-figure img {
+  width: 100%;
+  height: 100%;
+}}
