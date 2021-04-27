@@ -23,7 +23,7 @@ body {
   width: 100%; 
   height: 100%;  
   z-index: -1;
-  background: url("https://github.com/mhaszek/Web-Design-Challenge/blob/main/bonus/WebVisualizations/Resources/assets/images/st_kilda_sunset1.JPG") no-repeat center center fixed;
+  background: url("bonus/WebVisualizations/Resources/assets/images/st_kilda_sunset1.JPG") no-repeat center center fixed;
   opacity: 0.6;
 }
 
