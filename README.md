@@ -16,10 +16,5 @@ To run the example visit https://mhaszek.github.io/Web-Design-Challenge/.
 
 
 # Used Tools
- * Jupyter Notebook 
- * Pandas
- * Numpy
- * Scipy 
- * Matplotlib
- * SQLAlchemy  
- * PostgreSQL
+ * HTML
+ * CSS
