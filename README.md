@@ -12,7 +12,7 @@ There is one key source of data used:
 
 # Demo
 
-To run the example visit https://mhaszek.github.io/Web-Design-Challenge/.
+To run the example visit https://mhaszek.github.io/weather-visualization-dashboard/.
 
 
 # Used Tools
