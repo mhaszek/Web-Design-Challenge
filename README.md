@@ -18,3 +18,8 @@ To run the example visit https://mhaszek.github.io/weather-visualization-dashboa
 # Used Tools
  * HTML
  * CSS
+
+
+#
+
+#### Contact: mil.haszek@gmail.com
